@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+  margin: auto;
+  padding: 2em;
+}
+
+.input-field {
+  padding: 0.5em 1em;
+  border: 1px solid #717171;
+  border-radius: 3px;
+}
+
+.input-field:invalid {
+  border: 1px solid red;
+}
+
+.input-field__label {
+  font-size: 16px;
+  color: #414141;
+}
+
+.input-field__error-message {
+  font-size: 14px;
+  color: red;
+}
